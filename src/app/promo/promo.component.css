@@ -1,0 +1,47 @@
+.css-1gurero {
+  display: flex;
+}
+
+.css-1ks06cf {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 48px;
+  flex: 1 1 0%;
+}
+
+.css-17d2ind  {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px 12px;
+}
+img {
+  width: 24px;
+  height: 24px;
+
+}
+
+.css-en83bs {
+  flex-direction: column;
+  flex-basis: 55%;
+  overflow: hidden;
+}
+
+.css-emnma7 {
+  font-weight: 600;
+  white-space: nowrap;
+  margin-top: 2px;
+  line-height: 1.17;
+  color: rgb(66, 181, 73);
+  overflow: hidden;
+}
+
+.css-1tx2dd {
+  font-weight: 600;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 2px;
+  line-height: 1.17;
+  overflow: hidden;
+}

@@ -1,0 +1,57 @@
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'push'"
+      [opened]="!(isHandset$ | async) ">
+      <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+      *ngIf="isHandset$ | async">
+     <mat-icon aria-label="Side nav toggle icon">close</mat-icon>
+    </button>
+    <mat-nav-list>
+      <br>
+      <h4>Hi, User!</h4>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>
+    <mat-toolbar color="primary">
+
+        <div class="row container-fluid">
+        <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()"
+          *ngIf="isHandset$ | async">
+         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+        </button>
+        <form class="form-inline" action="search">
+          <input class="form-control mr-sm-2" type="text" placeholder="Cari di toko pa edi">
+        </form>
+
+      <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+      *ngIf="isHandset$ | async">
+      <mat-icon aria-label="Side nav toggle icon">favorite</mat-icon>
+    </button>
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+      *ngIf="isHandset$ | async">
+      <mat-icon aria-label="Side nav toggle icon">notifications_none</mat-icon>
+    </button>
+  </div>
+    </mat-toolbar>
+
+
+
+
